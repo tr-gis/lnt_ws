@@ -1,0 +1,8 @@
+prefix=/home/raj/lnt_ws/devel
+
+Name: lnt_urdf_description
+Description: Description of lnt_urdf_description
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/raj/lnt_ws/devel/lib 
+Requires: 

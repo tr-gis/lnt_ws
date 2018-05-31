@@ -1,0 +1,8 @@
+prefix=/home/raj/lnt_ws/devel
+
+Name: manipulator_control
+Description: Description of manipulator_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/raj/lnt_ws/devel/lib 
+Requires: 
