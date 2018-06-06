@@ -129,76 +129,76 @@ manipulator_control/CMakeFiles/man_hw.dir/src/manipulator_hw_interface.cpp.o.pro
 manipulator_control/CMakeFiles/man_hw.dir/src/manipulator_hw_interface.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/manipulator_hw_interface.cpp.o
 
 
-manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/dxl_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/dxl_driver.cpp
+manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
+manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/packet_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/packet_handler.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/packet_handler.cpp
 
-manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/dxl_driver.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/dxl_driver.cpp > CMakeFiles/man_hw.dir/src/dxl_driver.cpp.i
+manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/packet_handler.cpp.i"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/packet_handler.cpp > CMakeFiles/man_hw.dir/src/packet_handler.cpp.i
 
-manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/dxl_driver.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/dxl_driver.cpp -o CMakeFiles/man_hw.dir/src/dxl_driver.cpp.s
+manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/packet_handler.cpp.s"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/packet_handler.cpp -o CMakeFiles/man_hw.dir/src/packet_handler.cpp.s
 
-manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.requires:
+manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.requires:
 
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.requires
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.requires
 
-manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.provides
+manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.requires
+	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.provides.build
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.provides
 
-manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o
-
-
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_read.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_read.cpp
-
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_read.cpp > CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.i
-
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_read.cpp -o CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.s
-
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.requires:
-
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.requires
-
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.provides
-
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o
+manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o
 
 
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_write.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_write.cpp
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/protocol1_packet_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/protocol1_packet_handler.cpp
 
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_write.cpp > CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.i
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.i"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/protocol1_packet_handler.cpp > CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.i
 
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_write.cpp -o CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.s
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.s"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/protocol1_packet_handler.cpp -o CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.s
 
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.requires:
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.requires:
 
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.requires
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.requires
 
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.provides
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.requires
+	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.provides.build
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.provides
 
-manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o
+
+
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/protocol2_packet_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/protocol2_packet_handler.cpp
+
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.i"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/protocol2_packet_handler.cpp > CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.i
+
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.s"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/protocol2_packet_handler.cpp -o CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.s
+
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.requires:
+
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.requires
+
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.requires
+	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.provides.build
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.provides
+
+manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o
 
 
 manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_read.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
@@ -249,33 +249,57 @@ manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_write.cpp.o.provides: m
 manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_write.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_write.cpp.o
 
 
-manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/packet_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/packet_handler.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/packet_handler.cpp
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_read.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_read.cpp
 
-manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/packet_handler.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/packet_handler.cpp > CMakeFiles/man_hw.dir/src/packet_handler.cpp.i
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.i"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_read.cpp > CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.i
 
-manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/packet_handler.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/packet_handler.cpp -o CMakeFiles/man_hw.dir/src/packet_handler.cpp.s
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.s"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_read.cpp -o CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.s
 
-manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.requires:
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.requires:
 
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.requires
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.requires
 
-manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.provides
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.requires
+	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.provides.build
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.provides
 
-manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o
+
+
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_write.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_write.cpp
+
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.i"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_write.cpp > CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.i
+
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.s"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/group_bulk_write.cpp -o CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.s
+
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.requires:
+
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.requires
+
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.requires
+	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.provides.build
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.provides
+
+manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o
 
 
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o"
 	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/port_handler.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/port_handler.cpp
 
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.i: cmake_force
@@ -295,30 +319,6 @@ manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o.provides: manip
 .PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o.provides
 
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o
-
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler_arduino.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/port_handler_arduino.cpp
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/port_handler_arduino.cpp > CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.i
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/port_handler_arduino.cpp -o CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.s
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o.requires:
-
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o.requires
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o.provides
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o
 
 
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
@@ -345,100 +345,28 @@ manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o.provides:
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o
 
 
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler_mac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/port_handler_mac.cpp
+manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
+manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/dxl_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/dxl_driver.cpp
 
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/port_handler_mac.cpp > CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.i
+manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/dxl_driver.cpp.i"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/dxl_driver.cpp > CMakeFiles/man_hw.dir/src/dxl_driver.cpp.i
 
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/port_handler_mac.cpp -o CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.s
+manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/dxl_driver.cpp.s"
+	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/dxl_driver.cpp -o CMakeFiles/man_hw.dir/src/dxl_driver.cpp.s
 
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o.requires:
+manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.requires:
 
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o.requires
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.requires
 
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o.provides
+manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.requires
+	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.provides.build
+.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.provides
 
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o
-
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler_windows.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/port_handler_windows.cpp
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/port_handler_windows.cpp > CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.i
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/port_handler_windows.cpp -o CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.s
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o.requires:
-
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o.requires
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o.provides
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o
-
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/protocol1_packet_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/protocol1_packet_handler.cpp
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/protocol1_packet_handler.cpp > CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.i
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/protocol1_packet_handler.cpp -o CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.s
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.requires:
-
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.requires
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.provides
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o
-
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o: manipulator_control/CMakeFiles/man_hw.dir/flags.make
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/protocol2_packet_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o -c /home/raj/lnt_ws/src/manipulator_control/src/protocol2_packet_handler.cpp
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.i"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raj/lnt_ws/src/manipulator_control/src/protocol2_packet_handler.cpp > CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.i
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.s"
-	cd /home/raj/lnt_ws/build/manipulator_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raj/lnt_ws/src/manipulator_control/src/protocol2_packet_handler.cpp -o CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.s
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.requires:
-
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.requires
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.provides: manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.requires
-	$(MAKE) -f manipulator_control/CMakeFiles/man_hw.dir/build.make manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.provides.build
-.PHONY : manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.provides
-
-manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o
+manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.provides.build: manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o
 
 
 # Object files for target man_hw
@@ -446,19 +374,16 @@ man_hw_OBJECTS = \
 "CMakeFiles/man_hw.dir/src/man_hw_main.cpp.o" \
 "CMakeFiles/man_hw.dir/src/control_loop.cpp.o" \
 "CMakeFiles/man_hw.dir/src/manipulator_hw_interface.cpp.o" \
-"CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o" \
-"CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o" \
-"CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o" \
+"CMakeFiles/man_hw.dir/src/packet_handler.cpp.o" \
+"CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o" \
+"CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o" \
 "CMakeFiles/man_hw.dir/src/group_sync_read.cpp.o" \
 "CMakeFiles/man_hw.dir/src/group_sync_write.cpp.o" \
-"CMakeFiles/man_hw.dir/src/packet_handler.cpp.o" \
+"CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o" \
+"CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o" \
 "CMakeFiles/man_hw.dir/src/port_handler.cpp.o" \
-"CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o" \
 "CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o" \
-"CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o" \
-"CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o" \
-"CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o" \
-"CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o"
+"CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o"
 
 # External object files for target man_hw
 man_hw_EXTERNAL_OBJECTS =
@@ -466,19 +391,16 @@ man_hw_EXTERNAL_OBJECTS =
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/man_hw_main.cpp.o
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/control_loop.cpp.o
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/manipulator_hw_interface.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_read.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_write.cpp.o
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o
-/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o
+/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_read.cpp.o
+/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_write.cpp.o
+/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o
+/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o
+/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o
+/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o
+/home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/build.make
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: /opt/ros/indigo/lib/libcontrol_toolbox.so
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: /opt/ros/indigo/lib/libcontroller_manager.so
@@ -527,7 +449,7 @@ man_hw_EXTERNAL_OBJECTS =
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: /usr/lib/i386-linux-gnu/libpthread.so
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: /usr/lib/i386-linux-gnu/libconsole_bridge.so
 /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw: manipulator_control/CMakeFiles/man_hw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raj/lnt_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable /home/raj/lnt_ws/devel/lib/manipulator_control/man_hw"
 	cd /home/raj/lnt_ws/build/manipulator_control && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/man_hw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -538,19 +460,16 @@ manipulator_control/CMakeFiles/man_hw.dir/build: /home/raj/lnt_ws/devel/lib/mani
 manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/man_hw_main.cpp.o.requires
 manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/control_loop.cpp.o.requires
 manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/manipulator_hw_interface.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_read.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_write.cpp.o.requires
 manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/packet_handler.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o.requires
-manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o.requires
 manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o.requires
 manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/protocol2_packet_handler.cpp.o.requires
+manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_read.cpp.o.requires
+manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/group_sync_write.cpp.o.requires
+manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_read.cpp.o.requires
+manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/group_bulk_write.cpp.o.requires
+manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o.requires
+manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o.requires
+manipulator_control/CMakeFiles/man_hw.dir/requires: manipulator_control/CMakeFiles/man_hw.dir/src/dxl_driver.cpp.o.requires
 
 .PHONY : manipulator_control/CMakeFiles/man_hw.dir/requires
 

@@ -5,4 +5,8 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("lnt_packet")
+subdirs("lnt_urdf_description")
+subdirs("manipulator_control")
+subdirs("lnt_moveit_config")
 subdirs("lnt_ik")

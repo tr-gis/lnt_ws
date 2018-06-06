@@ -470,21 +470,9 @@ manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o: /home/raj/lnt_
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler_windows.h
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler.cpp
 
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler.h
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler_arduino.h
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_arduino.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler_arduino.cpp
-
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler.h
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler_linux.h
 manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_linux.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler_linux.cpp
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler.h
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler_mac.h
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_mac.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler_mac.cpp
-
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler.h
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler_windows.h
-manipulator_control/CMakeFiles/man_hw.dir/src/port_handler_windows.cpp.o: /home/raj/lnt_ws/src/manipulator_control/src/port_handler_windows.cpp
 
 manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/packet_handler.h
 manipulator_control/CMakeFiles/man_hw.dir/src/protocol1_packet_handler.cpp.o: /home/raj/lnt_ws/src/manipulator_control/include/dynamixel_sdk/port_handler.h
