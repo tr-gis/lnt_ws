@@ -1,0 +1,8 @@
+prefix=/home/raj/lnt_ws/devel
+
+Name: lnt_ik
+Description: Description of lnt_ik
+Version: 0.0.0
+Cflags: -I/home/raj/lnt_ws/devel/include
+Libs: -L/home/raj/lnt_ws/devel/lib 
+Requires: moveit roscpp message_runtime

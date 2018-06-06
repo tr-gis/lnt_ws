@@ -188,10 +188,11 @@ void dxl_driver::read(std::vector<double> &joint_position,std::vector<double> &j
 			else if(it->second<7){//These are Pro H42 series motor
 				present_pos=groupBulkRead->getData(joint_ids_[it->first], ADDR_PRO_PRESENT_POSITION, LEN_PRO_PRESENT_POSITION);
 				//printf("Present Position %s : %G \t ", it->first.c_str(),static_cast<double>(present_pos)*(double)(1.0*0.00002067489));
-				joint_position[index] = static_cast<double>(present_pos)*(double)(1.0*0.00002067489);}
+				joint_position[index] = static_cast<double>(present_pos)*(double)(-1.0*0.00002067489);}
 				
 			else{//These are MX64 2.0 series motors
 				present_pos=groupBulkRead->getData(joint_ids_[it->first], ADDR_MX_PRESENT_POSITION, LEN_MX_PRESENT_POSITION);
+				present_pos=0;
 				//printf("Present Position %s : %G \t ", it->first.c_str(),static_cast<double>(present_pos)*(double)(1.0*0.00002067489));
 				joint_position[index] = static_cast<double>(present_pos)*(double)(1.0*0.001533);
 				}
@@ -213,7 +214,16 @@ void dxl_driver::write(std::vector<double> &joint_position_command,std::vector<d
 			//dxl_goal_position=joint_position_command[index]*(250961.5/3.14);
 			}
 		else if (it->second<7){//These are Pro H42 series motor
-			dxl_goal_position=(joint_position_command[index])*(double)(151875/3.14);
+			
+			if(it->second==4){
+				printf("negated 4");
+				dxl_goal_position=(joint_position_command[index])*(double)(-151875/3.14);}
+			else if(it->second==6){
+				printf("negated 6");
+				dxl_goal_position=(joint_position_command[index])*(double)(-151875/3.14);}
+						
+			else{
+				dxl_goal_position=(joint_position_command[index])*(double)(-151875/3.14);}
 			//printf("%i \t", dxl_goal_position);static_cast<int>
 			//dxl_goal_position=joint_position_command[index]*(151875/3.14);
 			}

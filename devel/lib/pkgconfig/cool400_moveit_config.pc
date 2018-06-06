@@ -1,8 +1,0 @@
-prefix=/home/raj/lnt_ws/devel
-
-Name: cool400_moveit_config
-Description: Description of cool400_moveit_config
-Version: 0.3.0
-Cflags: 
-Libs: -L/home/raj/lnt_ws/devel/lib 
-Requires: 

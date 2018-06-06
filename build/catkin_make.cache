@@ -1,2 +1,2 @@
-cool400_moveit_config:lnt_moveit_config:lnt_urdf_description:manipulator_control:my_dynamixel_tutorial
+lnt_ik:lnt_moveit_config:lnt_packet:lnt_urdf_description:manipulator_control
 -DCATKIN_DEVEL_PREFIX=/home/raj/lnt_ws/devel -DCMAKE_INSTALL_PREFIX=/home/raj/lnt_ws/install -G Unix Makefiles

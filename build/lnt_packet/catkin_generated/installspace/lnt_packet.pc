@@ -1,0 +1,8 @@
+prefix=/home/raj/lnt_ws/install
+
+Name: lnt_packet
+Description: Description of lnt_packet
+Version: 0.0.0
+Cflags: -I/home/raj/lnt_ws/install/include
+Libs: -L/home/raj/lnt_ws/install/lib -llnt_packet
+Requires: roscpp std_msgs
