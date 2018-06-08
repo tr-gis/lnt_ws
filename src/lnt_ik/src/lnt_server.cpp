@@ -56,9 +56,12 @@ class lnt_control
 		
  public:
  
-	double home_pos[6] = {0,45,-65,0,-20,0};
+	double home_pos[6] = {0,45,65,0,-20,0};
 
-        bool home_position(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Response& res);
+        bool deploy_position(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Response& res);
+
+	bool home_position(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Response& res);
+    
     
 	bool individual_joint_control(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Response& res);
 	
@@ -121,9 +124,9 @@ float lnt_control::Range_conversion(float angle){
 	return angle;
 }
 
-bool lnt_control::home_position(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Response& res)
+bool lnt_control::deploy_position(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Response& res)
 {
-	ROS_INFO("Executing home position command");	
+	ROS_INFO("Executing deploy position command");	
 
 	ros::NodeHandle home;
 
@@ -146,6 +149,32 @@ bool lnt_control::home_position(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Res
 }
 
 
+bool lnt_control::home_position(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Response& res)
+{
+	ROS_INFO("Executing home position command");	
+
+	ros::NodeHandle home;
+
+	//Sending the manipulator to home position
+	//Create a client for multiple joint control
+
+	ros::ServiceClient lnt_client = home.serviceClient<lnt_ik::lnt_ik>("joint_space_control_multiple");
+	   
+	lnt_ik::lnt_ik srv;
+		
+	for(int i=0;i<6;i++){
+		 srv.request.values[i] = 0;
+	 	}
+	 //call the service 
+	if(lnt_client.call(srv))
+		return true;
+	else
+        	return false;
+
+}
+
+
+
 bool lnt_control::individual_joint_control(lnt_ik::lnt_ik::Request& req,lnt_ik::lnt_ik::Response& res){
 
 	ROS_INFO("Entering Individual joint space control for : Joint %d ",req.values[0]);
@@ -153,6 +182,9 @@ bool lnt_control::individual_joint_control(lnt_ik::lnt_ik::Request& req,lnt_ik::
 	//Variable for storing the angles in degrees converted to radians 
 	float position;
 	position = lnt_control::Deg_to_Rad(req.values[1]);
+	if(req.values[0]==3){
+		position=-position;
+	}
 
 	if(lnt_control::safety_check(req.values[0]-1,position)){
 	
@@ -217,7 +249,10 @@ bool lnt_control::multiple_joint_control(lnt_ik::lnt_ik::Request& req,lnt_ik::ln
 	//Modify the joint state accordingly
 	for(int i=0;i<6;i++){
 		//Degree to radians conversion
-		multiple_joint_position[i] = lnt_control::Deg_to_Rad(req.values[i]);
+		if(i==2){
+		multiple_joint_position[i] = -lnt_control::Deg_to_Rad(req.values[i]);}
+		else{
+		multiple_joint_position[i] = lnt_control::Deg_to_Rad(req.values[i]);}
 
 		//Checking the limits
 		if(safety_check(i,multiple_joint_position[i])){	  
@@ -562,9 +597,9 @@ bool lnt_control::cylindrical_space_control(lnt_ik::lnt_ik::Request& req,lnt_ik:
 
 		//Assigning the theta to base joint
 		lnt_ik::lnt_ik srv;
-		srv.request.values[0]=0;
+		srv.request.values[0]=1;
 		srv.request.values[1]=theta;
-
+                //ROS_INFO
 		//Calling the service 
 		if(lnt_client_joint.call(srv)){
 			ROS_INFO("Executed cylindrical space goal successfully");
@@ -657,7 +692,10 @@ int main(int argc, char **argv)
 	ros::ServiceServer service4 =  n.advertiseService("cartesian_space_orientation_constraint", &lnt_control::cartesian_space_orientation_constrained_control, &arm);
 	ros::ServiceServer service5 =  n.advertiseService("cartesian_space_position_constraint", &lnt_control::cartesian_space_position_constrained_control, &arm);
 	ros::ServiceServer service6 =  n.advertiseService("cylindrical_space_control", &lnt_control::cylindrical_space_control, &arm);
-        ros::ServiceServer service7 =  n.advertiseService("home_position", &lnt_control::home_position, &arm);
+        ros::ServiceServer service7 =  n.advertiseService("deploy_position", &lnt_control::deploy_position, &arm);
+	ros::ServiceServer service8 =  n.advertiseService("home_position", &lnt_control::home_position, &arm);
+		
+
 	ros::AsyncSpinner spinner(3);
   	spinner.start();
   	

@@ -273,7 +273,7 @@
     <child
       link="link_4" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 0 -1" />
     <limit
       lower="-2.09"
       upper="2.09"
@@ -333,7 +333,7 @@
     <child
       link="link_5" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 0 -1" />
     <limit
       lower="-1.57"
       upper="1.57"
@@ -393,7 +393,7 @@
     <child
       link="link_6" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 0 -1" />
     <limit
       lower="-3.14"
       upper="3.14"
@@ -406,7 +406,7 @@
    <joint name="lnt_gripper_tool_frame_joint" type="fixed">
     <parent link="link_6"/>
     <child link="lnt_gripper_tool_frame" />
-    <origin xyz="0 0 0.14" rpy="0 0 0"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
   </joint>
 
  
