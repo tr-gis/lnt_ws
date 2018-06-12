@@ -186,7 +186,7 @@ target_link_libraries(dynamixel_sdk ${catkin_LIBRARIES})
 #target_link_libraries(dxl ${Boost_LIBRARIES} ${catkin_LIBRARIES})
 
 add_executable(joint_states_in_deg src/joint_states_deg.cpp)
-target_link_libraries(joint_states_in_deg ${catkin_LIBRARIES})
+target_link_libraries(joint_states_in_deg  ${Boost_LIBRARIES} ${catkin_LIBRARIES})
 #add_dependencies(joint_states_in_deg manipulator_control_generate_messages_cpp)
 
 

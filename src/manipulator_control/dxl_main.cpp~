@@ -33,9 +33,7 @@ for (int i = 0;i<joint_velocity_c.size();i++){
 joint_velocity_c[i]=0.15*j;
 }
 
-
-//note that only the first vector arugment is written to motor
-d.write(joint_velocity_c,joint_position_c,joint_effort_c);
+d.write(joint_position_c,joint_velocity_c,joint_effort_c);
 
 d.sleep(3000000);
 d.read(joint_position_,joint_velocity_,joint_effort_);
