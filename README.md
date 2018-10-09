@@ -1,5 +1,5 @@
 # lnt_ws
-*This workspace contains all the source code and executables created by Asimov Robotics while working on the Manipulator Arm project.*
+*This workspace contains all the source code and executables created by Asimov Robotics while working on the Manipulator Arm project. I would recommend deleting build and devel directories, then run catkin_make command locally to generate the directories again*
 
 #### _Directory Structure_:
 
