@@ -3,6 +3,9 @@
 #include <lnt_packet/lnt_packet.h>
 #include <stdio.h>
 
+
+//callback function for subscriber subscribing to the topic /lnt_packet_data
+//The packet_code and mode details are taken from topic and used to call corresponding requests to the server
 void packet_data_Callback(const lnt_packet::lnt_packet::ConstPtr& packet_data)
 {
   //nodehandle for calling service
