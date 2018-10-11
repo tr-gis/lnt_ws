@@ -182,8 +182,8 @@ set(SOURCES src/packet_handler.cpp
 add_dependencies(dynamixel_sdk ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(dynamixel_sdk ${catkin_LIBRARIES})
 
-add_executable(dxl src/dxl_main.cpp ${SOURCES})
-target_link_libraries(dxl ${Boost_LIBRARIES} ${catkin_LIBRARIES})
+#add_executable(dxl src/dxl_main.cpp ${SOURCES})
+#target_link_libraries(dxl ${Boost_LIBRARIES} ${catkin_LIBRARIES})
 
 add_executable(joint_states_in_deg src/joint_states_deg.cpp)
 target_link_libraries(joint_states_in_deg  ${Boost_LIBRARIES} ${catkin_LIBRARIES})
