@@ -10,7 +10,7 @@ manipulator:
     # match joint names with joint numbers
     joint_nums: {'joint1': 1,'joint2': 2,'joint3': 3,'joint4': 4,'joint5': 5,'joint6': 6,'left_grip_joint': 7,'right_grip_joint': 8}
 
-    
+    # These are defined for future implementation. 
     joint_speed: {'base': 7,'shoulder': 6,'elbow': 5,'roll1': 4,'pitch': 3,'roll2': 2,'gripper': 1}
     joint_pos_min: {'base': 0,'shoulder': 0,'elbow': 0,'roll1': 0,'pitch': 0,'roll2': 0,'gripper': 0}
     joint_pos_max: {'base': 4095,'shoulder': 4095,'elbow': 4095,'roll1': 4095,'pitch': 4095,'roll2': 4095,'gripper': 4095}
