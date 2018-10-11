@@ -11,3 +11,14 @@ are defined.
 
 **src** : Contains all the source code.
 
+#### Running the package:
+
+1. launch manipulator.launch file : `roslaunch manipulator_control manipulator.launch`
+
+
+Make sure device path, motors IDs, baud rate are set correctly in the .yaml files.
+
+
+2. run the main hardware node : `rosrun manipulator_control man_hw`
+
+Now you can issue command to the manipulator. Refer to lnt_packet packge for more information on this.
